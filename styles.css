@@ -11,7 +11,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     position: relative;
 }
 
@@ -81,14 +82,11 @@ body {
 
 /* Lock Screen */
 .lock-screen {
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.5s ease;
+    display: none;
 }
 
 .lock-screen.active {
-    opacity: 1;
-    visibility: visible;
+    display: block;
 }
 
 .lock-container {
@@ -212,14 +210,11 @@ body {
 
 /* Reveal Screen */
 .reveal-screen {
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.8s ease;
+    display: none;
 }
 
 .reveal-screen.active {
-    opacity: 1;
-    visibility: visible;
+    display: block;
 }
 
 .reveal-container {
