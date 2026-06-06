@@ -1,5 +1,5 @@
 // Configuration
-const SECRET_CODE = 'iloveher'; // Change this to your secret code
+const SECRET_CODE = 'Ms Jugnu Darling'; // Change this to your secret code
 const LOVE_MULTIPLIER = 100; // How many times the message multiplies
 
 // DOM Elements
